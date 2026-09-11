@@ -6,6 +6,7 @@
 # Approach: We can brute force with dual loops or we can store the freq of values in hashmap and then use the formuala n*(n-1)//2 to check 
 # how many pairs does the occurence of this key make.
 
+
 from collections import Counter
 from typing import List
 class Solution:
